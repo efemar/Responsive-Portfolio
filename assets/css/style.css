@@ -27,6 +27,7 @@ body {
   float: left;
   width: 250px;
   height: 90px;
+  margin-left: 60px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
   font-weight: 600;
@@ -105,7 +106,7 @@ h3 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 40px;
   
 }
 
@@ -114,7 +115,7 @@ h3 {
   width: 100%;
   max-width: 960px;
   padding: 30px;
-  margin: 0 0 40px;
+  margin: 0 0 40px 40px;
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -122,7 +123,7 @@ h3 {
 #auth-image {
   float: left;
   height: auto;
-  max-width: 100%;
+  max-width: 30%;
   margin-right: 20px;
 }
 
@@ -258,6 +259,20 @@ input[type=submit] {
       background: url("../images/concrete_seamless.png");
     }
 
+    #main-container {
+      padding-top: 40px;
+      
+    }
+    
+    .main-section {
+      float: left;
+      width: 100%;
+      max-width: 960px;
+      padding: 30px;
+      margin: 0 0 40px 40px;
+      background: #fff;
+      border: 1px solid #ddd; 
+    }
    
   @media screen and (max-width: 768px) {
     body {
@@ -269,6 +284,15 @@ input[type=submit] {
 
     }
 
+    .main-section {
+      float: left;
+      width: 100%;
+      max-width: 768px;
+      padding: 30px;
+      margin: 0 0 300px 20px;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
 
     @media screen and (max-width: 640px) {
       body {
@@ -279,4 +303,12 @@ input[type=submit] {
       background: url("../images/concrete_seamless.png");
     
       } 
-
+      .main-section {
+        float: left;
+        width: 100%;
+        max-width: 640px;
+        padding: 30px;
+        margin: 0 0 40px;
+        background: #fff;
+        border: 1px solid #ddd;
+      }
